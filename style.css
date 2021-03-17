@@ -39,8 +39,7 @@ body {
 	font-size: 18px;
     line-height: 1.5;
 	font-family: 'Lora', serif;
-	
-	
+	margin: 30px auto ;	
 }
 
 h1{
@@ -125,9 +124,9 @@ h3{
 	display: flex;
 	padding: 0 30px 0 0;
 	background-color: white;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	
+	padding: 80px auto;
+	/* padding-bottom: 80px; */
+	width: 1100px;
 }
 
 
@@ -164,15 +163,17 @@ h3{
 
 .blok{
 	display: flex;
-
+	width: 100%;
 }
 
 .dort,
 .livanec,
 .kolac,
 .buchta{
-	height: 200px;
-	border-radius: 5px;
+	
+	
+	width: 100%;
+	
 	
 }
 
@@ -182,12 +183,31 @@ h3{
 .ctvrty{
 	background-color: white;
     text-align: center;
-	width: 100%;
-	margin-right: 30px;
+	border-radius: 5px;
 	
-
+	
 }
 
+
+.prvni{
+	margin: 30px;
+}
+
+.druhy{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.treti{
+	margin: 30px;
+	padding: 20px;
+}
+
+.ctvrty{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
 
 .nulty{
 	flex-basis: 100%;
