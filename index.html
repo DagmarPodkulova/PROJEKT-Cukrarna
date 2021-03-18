@@ -13,11 +13,12 @@
 	<!-- Naše vlastní CSS -->
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="cukrarna">
 
-	<!-- Hlavička -->
-<main class="cukrarna">
 	
+	<!-- Hlavička -->
+
+	<header class="hlavicka">
 		<div class="menu">
 			<img class="logo" src="images/logo.svg" alt="logo Skvělá cukrárna">
 
@@ -29,75 +30,89 @@
 				<li><a href="#">Online objednávka</a></li>
 			</ul>
 		
-	</div>
-
+		</div>
+	</header>
 
 	<!-- Hero sekce s obrázkem a hlavním nadpisem -->
-	<div class="cupcake">
-		<h1>Sladké potěšení z&nbsp;kvalitních surovin</h1>
+	<section class="herosekce">
+	
+		<div class="cupcake">
+			<h1>Sladké potěšení z&nbsp;kvalitních surovin</h1>
 
-		<p class="hero">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-		</p>
-	</div>
+			<p class="hero">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+			</p>
+		</div>
+	</section>
 
+	<main>
 
-
+	<section class="sekcecukrarna">
 	<!-- sekce Vítejte v naší cukrárně -->
-	<div class="sekcejedna">
-		<!-- levý sloupec -->
-		<div class="levy">
+			<!-- levý sloupec -->
+			<div class="levy sloupecl">
+				<div class="sl sll">
+					<h2 class="vitejte">Vítejte v naší cukrárně</h2>
 
-			<h2 class="vitejte">Vítejte v naší cukrárně</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+					<p class="plevy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia minima reiciendis beatae, quo consequatur blanditiis molestiae laborum, at porro ipsum soluta temporibus.</p>
+					<div class="button">
+						<a class="vyrobky" href="#">Naše výrobky</a>
+					</div>
+				</div>
+			<!-- pravý sloupec -->
+				<img class="levy photocukrarna" src="images/cukrarka.jpg" alt="cukrářka">
+			</div>
+	</section>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-			<p class="plevy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia minima reiciendis beatae, quo consequatur blanditiis molestiae laborum, at porro ipsum soluta temporibus.</p>
-
-			<a class="vyrobky" href="#">Naše výrobky</a>
-		</div>
-		<!-- pravý sloupec -->
-			<img class="photocukrarna" src="images/cukrarka.jpg" alt="cukrářka">
-	</div>
-
-
-
+	
 	<!-- sekce Dnešní nabídka -->
-	<div class="nabidka">
-		<div class="nulty">
-			<h2>Dnešní nabídka</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		</div>
-		<!-- produkt 1 -->
-	<div class="blok">
-		<div class="prvni">
-			<img class="dort" src="images/dort.jpg" alt="Šlehačkový dort s malinami">
-			<h3>Malinový dort</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		</div>
+	<section class="sekcenabidka">
+		<div class="blok">
+			<div class="nulty">
+				<h2>Dnešní nabídka</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+			</div>
+			<!-- produkt 1 -->
+		<div class="dobrotaa">
+			<div class="dobrota pra">
+				<img class="dort" src="images/dort.jpg" alt="Šlehačkový dort s malinami">
+				<div product>
+					<h3>Malinový dort</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div>
 
-		<!-- produkt 2 -->
-		<div class="druhy">
-			<img class="livanec" src="images/livance.jpg" alt="Lívance s ovocem">
-			<h3>Lívance s ovocem</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		</div>
+			<!-- produkt 2 -->
+			<div class="dobrota pra">
+				<img class="livanec" src="images/livance.jpg" alt="Lívance s ovocem">
+				<div product>
+					<h3>Lívance s ovocem</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div>
 
 
-		<!-- produkt 3 -->
-		<div class="treti">
-			<img class="kolac" src="images/kolac.jpg" alt="Dýňový koláč">
-			<h3>Dýňový koláč</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		</div>
+			<!-- produkt 3 -->
+			<div class="dobrota pra">
+				<img class="kolac" src="images/kolac.jpg" alt="Dýňový koláč">
+				<div product>
+					<h3>Dýňový koláč</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div>
 
-		<!-- produkt 4 -->
-		<div class="ctvrty">
-			<img class="buchta" src="images/buchticka.jpg" alt="Buchtička s polevou">
-			<h3>Buchtička s polevou</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+			<!-- produkt 4 -->
+			<div class="dobrota pra">
+				<img class="buchta" src="images/buchticka.jpg" alt="Buchtička s polevou">
+				<div product>
+					<h3>Buchtička s polevou</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				</div>
 		</div>
-	</div>
-	</div>
+		</div>
+	</section>
 
 
 
@@ -117,13 +132,13 @@
 			</div>
 		</div>
 
-
+	</main>
 
 	<!-- Patička -->
 	<footer class="paticka">
 		<p>©2020, Czechitas. Vytvořeno pro kurz Staň se kóderkou.</p>
 	</footer>
-</main>
+
 
 
 </body>
